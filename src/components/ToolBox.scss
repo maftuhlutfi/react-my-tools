@@ -1,0 +1,28 @@
+.tool-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	box-shadow:  5px 5px 10px #c6c9cc, 
+             	-5px -5px 10px #ffffff;
+
+	&:hover {
+		cursor: pointer;
+		background: linear-gradient(145deg, #d2d5d8, #f9feff);
+	}
+
+	.icon {
+		font-size: 2em;
+		margin-bottom: 10px;
+		color: #587eff;
+	}
+
+	.name {
+		font-size: .9em;
+	}
+}
